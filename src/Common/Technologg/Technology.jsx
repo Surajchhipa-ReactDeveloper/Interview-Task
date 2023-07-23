@@ -1,25 +1,6 @@
 import React, { useEffect } from "react";
 import "./Technology.css";
 const Technology = (props) => {
-  //   useEffect(() => {
-  //     const TechClick = () => {
-  //       try {
-  //         if (TechBtn === OpenAFA) {
-  //           window.open(
-  //             "https://docs.fetch.ai/aea-framework-documentation/#the-aea-framework",
-  //             "_personal"
-  //           );
-  //         } else if (TechBtn === OpenUAgent) {
-  //           window.open("https://docs.fetch.ai/uAgents/", "_personal");
-  //         } else {
-  //           console.log("hello world!");
-  //         }
-  //       } catch (error) {
-  //         console.log("Error: " + error);
-  //       }
-  //     };
-  //   }, [TechClick]);
-
   return (
     <>
       <div className="Technology_Container">

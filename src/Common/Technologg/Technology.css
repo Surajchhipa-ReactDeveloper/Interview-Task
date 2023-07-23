@@ -15,7 +15,7 @@
 .Technology_Name {
   color: #fff;
   font-family: Montserrat;
-  font-size: 3.3rem;
+  font-size: 3rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -30,7 +30,7 @@
 .Technology_Type ul li {
   color: #fff;
   font-family: Montserrat;
-  font-size: 1.9rem;
+  font-size: 1.8rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -55,33 +55,34 @@
   background: #ef0178;
   border: none;
 }
+/* **************** MEDIA ********************** */
 @media only screen and (max-width: 1150px) {
   .Technology_Container {
-    width: 25rem;
+    width: 27rem;
     height: 31rem;
   }
   .Technology_Name {
-    font-size: 3.1rem;
+    font-size: 2.7rem;
   }
   .Technology_Type ul li {
-    font-size: 1.8rem;
+    font-size: 1.689em;
   }
 }
 @media only screen and (max-width: 1000px) {
   .Technology_Container {
-    width: 24rem;
+    width: 25rem;
     height: 29rem;
     gap: 1.2rem;
   }
   .Technology_Name {
-    font-size: 2.8rem;
+    font-size: 2.5rem;
   }
   .Technology_Type ul li {
-    font-size: 1.8rem;
+    font-size: 1.585rem;
   }
   .Technology_Button {
     width: 13rem;
-    height: 3.7rem;
+    height: 3.6rem;
     font-size: 1.4rem;
   }
 }
@@ -126,7 +127,6 @@
     height: 33rem;
     gap: 1rem;
     padding-left: 4rem;
-
   }
   .Technology_Name {
     font-size: 3rem;
@@ -160,9 +160,8 @@
 @media only screen and (max-width: 600px) {
   .Technology_Container {
     width: 35rem;
-    gap: .9rem;
+    gap: 0.9rem;
     padding-left: 3.5rem;
-
   }
   .Technology_Name {
     font-size: 2.8rem;
@@ -180,9 +179,8 @@
   .Technology_Container {
     width: 30rem;
     height: 28rem;
-    gap: .8rem;
+    gap: 0.8rem;
     padding-left: 3rem;
-
   }
   .Technology_Name {
     font-size: 2.6rem;
@@ -200,9 +198,8 @@
   .Technology_Container {
     width: 26rem;
     height: 27rem;
-    gap: .5rem;
+    gap: 0.5rem;
     padding-left: 2rem;
-
   }
   .Technology_Name {
     font-size: 2.4rem;
@@ -211,18 +208,15 @@
     font-size: 1.4rem;
   }
   .Technology_Button {
-    width: 12rem;
-    height: 3.9rem;
-    font-size: 1.2rem;
+    height: 3.6rem;
   }
 }
 @media only screen and (max-width: 370px) {
   .Technology_Container {
     width: 24rem;
     height: 26rem;
-    gap: .5rem;
+    gap: 0.5rem;
     padding-left: 1.5rem;
-
   }
   .Technology_Name {
     font-size: 2.4rem;
@@ -231,8 +225,6 @@
     font-size: 1.4rem;
   }
   .Technology_Button {
-    width: 12rem;
-    height: 3.9rem;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
 }

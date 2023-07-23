@@ -9,6 +9,15 @@ const Abouts = () => {
   const AboutClickButton = () => {
     window.open("https://docs.fetch.ai/aea-framework-documentation/", "_blank");
   };
+  const OpenAFA = () => {
+    window.open(
+      "https://docs.fetch.ai/aea-framework-documentation/#the-aea-framework",
+      "_personal"
+    );
+  };
+  const OpenUAgent = () => {
+    window.open("https://docs.fetch.ai/uAgents/", "_personal");
+  };
   return (
     <div className="AboutUs_Container">
       <div className="About_US_top_Container">
@@ -57,7 +66,7 @@ const Abouts = () => {
             Tech4={"Blockchain ready"}
             Tech5={"Modern"}
             TechBtn={"Learn More"}
-            // TechClick={OpenAFA}
+            TechClick={OpenAFA}
           />
 
           <Technology
@@ -68,7 +77,7 @@ const Abouts = () => {
             Tech4={"secure"}
             Tech5={"platform independent:"}
             TechBtn={"Learn More"}
-            // TechClick={OpenUAgent}
+            TechClick={OpenUAgent}
           />
         </div>
       </div>
