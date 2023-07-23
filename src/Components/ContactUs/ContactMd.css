@@ -101,7 +101,7 @@
     font-size: 1.8rem;
   }
   .Query {
-    /* display: none; */
+    max-height: 10rem;
   }
   .Emoji {
     display: none;
@@ -147,7 +147,7 @@
     font-size: 1.6rem;
   }
   .Query {
-    height: 6rem;
+    max-height: 6rem;
   }
   .Contact_Input {
     gap: 1.5rem;
