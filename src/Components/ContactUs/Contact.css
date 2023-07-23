@@ -57,17 +57,24 @@
   justify-content: center;
   gap: 3rem;
 }
+/* const TextArea = document.querySelector("textarea") */
+
 .Query {
+  resize: none;
+  outline: none;
   font-size: 1.8rem;
   width: 37.1em;
   height: 12rem;
-  padding: 0rem 2rem;
+  padding: 1rem 2rem;
   border: none;
   outline: none;
   color: #000000c9;
   border-radius: 0.8rem;
   background-color: rgb(255, 255, 255);
   font-family: Montserrat;
+}
+textarea::-webkit-scrollbar {
+  width: 0%;
 }
 .SubmitBtn {
   margin-top: 0.5rem;
