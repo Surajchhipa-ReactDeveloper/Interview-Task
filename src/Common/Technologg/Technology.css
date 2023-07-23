@@ -1,0 +1,238 @@
+.Technology_Container {
+  width: 28rem;
+  /* border: 2px solid rgb(55, 255, 0); */
+  height: 33rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 2.6rem;
+  background: #5243c2;
+  box-shadow: 0rem 2rem 3rem 1px rgba(82, 67, 194, 0.3);
+  padding: 1.5rem;
+  gap: 1.5rem;
+}
+.Technology_Name {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 3.3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-left: 2rem;
+}
+.Technology_Type ul {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.Technology_Type ul li {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 1.9rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.Technology_Button {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15rem;
+  height: 4rem;
+  margin-left: 2rem;
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  font-size: 1.5rem;
+  border-radius: 0.5rem;
+  background: #ef0178;
+  border: none;
+}
+@media only screen and (max-width: 1150px) {
+  .Technology_Container {
+    width: 25rem;
+    height: 31rem;
+  }
+  .Technology_Name {
+    font-size: 3.1rem;
+  }
+  .Technology_Type ul li {
+    font-size: 1.8rem;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .Technology_Container {
+    width: 24rem;
+    height: 29rem;
+    gap: 1.2rem;
+  }
+  .Technology_Name {
+    font-size: 2.8rem;
+  }
+  .Technology_Type ul li {
+    font-size: 1.8rem;
+  }
+  .Technology_Button {
+    width: 13rem;
+    height: 3.7rem;
+    font-size: 1.4rem;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .Technology_Container {
+    height: 28rem;
+    gap: 1rem;
+  }
+  .Technology_Name {
+    font-size: 2.6rem;
+  }
+  .Technology_Type ul li {
+    font-size: 1.6rem;
+  }
+  .Technology_Button {
+    width: 12rem;
+    height: 3.6rem;
+    font-size: 1.3rem;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .Technology_Container {
+    /* width: 2rem; */
+    height: 28rem;
+    gap: 1rem;
+  }
+  .Technology_Name {
+    font-size: 2.6rem;
+  }
+  .Technology_Type ul li {
+    font-size: 1.6rem;
+  }
+  .Technology_Button {
+    width: 12rem;
+    height: 3.6rem;
+    font-size: 1.3rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .Technology_Container {
+    width: 45rem;
+    height: 33rem;
+    gap: 1rem;
+    padding-left: 4rem;
+
+  }
+  .Technology_Name {
+    font-size: 3rem;
+  }
+  .Technology_Type ul li {
+    font-size: 1.8rem;
+  }
+  .Technology_Button {
+    width: 15rem;
+    height: 4rem;
+    font-size: 1.4rem;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .Technology_Container {
+    width: 40rem;
+    height: 30rem;
+  }
+  .Technology_Name {
+    font-size: 3rem;
+  }
+  .Technology_Type ul li {
+    font-size: 1.8rem;
+  }
+  .Technology_Button {
+    width: 12rem;
+    height: 3.9rem;
+    font-size: 1.3rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .Technology_Container {
+    width: 35rem;
+    gap: .9rem;
+    padding-left: 3.5rem;
+
+  }
+  .Technology_Name {
+    font-size: 2.8rem;
+  }
+  .Technology_Type ul li {
+    font-size: 1.7rem;
+  }
+  .Technology_Button {
+    width: 12rem;
+    height: 3.9rem;
+    font-size: 1.2rem;
+  }
+}
+@media only screen and (max-width: 530px) {
+  .Technology_Container {
+    width: 30rem;
+    height: 28rem;
+    gap: .8rem;
+    padding-left: 3rem;
+
+  }
+  .Technology_Name {
+    font-size: 2.6rem;
+  }
+  .Technology_Type ul li {
+    font-size: 1.5rem;
+  }
+  .Technology_Button {
+    width: 12rem;
+    height: 3.9rem;
+    font-size: 1.2rem;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .Technology_Container {
+    width: 26rem;
+    height: 27rem;
+    gap: .5rem;
+    padding-left: 2rem;
+
+  }
+  .Technology_Name {
+    font-size: 2.4rem;
+  }
+  .Technology_Type ul li {
+    font-size: 1.4rem;
+  }
+  .Technology_Button {
+    width: 12rem;
+    height: 3.9rem;
+    font-size: 1.2rem;
+  }
+}
+@media only screen and (max-width: 370px) {
+  .Technology_Container {
+    width: 24rem;
+    height: 26rem;
+    gap: .5rem;
+    padding-left: 1.5rem;
+
+  }
+  .Technology_Name {
+    font-size: 2.4rem;
+  }
+  .Technology_Type ul li {
+    font-size: 1.4rem;
+  }
+  .Technology_Button {
+    width: 12rem;
+    height: 3.9rem;
+    font-size: 1.2rem;
+  }
+}

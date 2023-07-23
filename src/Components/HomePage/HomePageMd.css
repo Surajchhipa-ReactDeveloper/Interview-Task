@@ -1,0 +1,256 @@
+@media only screen and (max-width: 1250px) {
+  .MainImg {
+    width: 45rem;
+  }
+  .Hero_Heading,
+  span {
+    width: 52.9rem;
+    font-size: 5.8rem;
+  }
+  .Hero_Page_Container {
+    gap: 6rem;
+  }
+}
+@media only screen and (max-width: 1150px) {
+  /* .MainImg {
+    width: 4rem;
+  } */
+  .Hero_Heading,
+  span {
+    width: 48.5rem;
+    font-size: 5.6rem;
+    line-height: 6.8rem;
+  }
+  .Hero_Title {
+    font-size: 1.7rem;
+    width: 46rem;
+  }
+  .HeroBtn {
+    font-size: 1.6rem;
+    width: 14rem;
+  }
+  .Hero_Page_Container {
+    gap: 5rem;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .MainImg {
+    width: 42rem;
+  }
+  .Hero_Heading,
+  span {
+    width: 46rem;
+    font-size: 5.4rem;
+    line-height: 6.7rem;
+  }
+  .Hero_Title {
+    font-size: 1.66rem;
+    width: 44rem;
+  }
+  .HeroBtn {
+    font-size: 1.6rem;
+    width: 14rem;
+    margin-top: 2rem;
+  }
+}
+@media only screen and (max-width: 1050px) {
+  .Hero_Page_Container {
+    gap: 2.5rem;
+  }
+  .MainImg {
+    width: 40rem;
+  }
+  .Hero_Heading,
+  span {
+    width: 43rem;
+    font-size: 5.2rem;
+    line-height: 6.5rem;
+  }
+  .Hero_Title {
+    font-size: 1.5rem;
+    width: 42rem;
+  }
+  .HeroBtn {
+    font-size: 1.5rem;
+    width: 14rem;
+    height: 4.2rem;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .Hero_Page_Container {
+    gap: 3.5rem;
+  }
+  .MainImg {
+    width: 35rem;
+  }
+  .Hero_Heading,
+  span {
+    width: 39rem;
+    font-size: 4.8rem;
+    line-height: 6rem;
+  }
+  .Hero_Title {
+    font-size: 1.45rem;
+    width: 38rem;
+    line-height: 2.6rem;
+  }
+  .HeroBtn {
+    font-size: 1.4rem;
+    width: 12.5rem;
+    height: 4rem;
+    margin-top: 1.7rem;
+  }
+}
+@media only screen and (max-width: 850px) {
+  .Hero_Page_Container {
+    gap: 3rem;
+  }
+  .MainImg {
+    width: 34rem;
+  }
+  .Hero_Heading,
+  span {
+    width: 37rem;
+    font-size: 4.6rem;
+    line-height: 5.5rem;
+  }
+  .Hero_Title {
+    width: 36rem;
+    line-height: 2.4rem;
+    margin-top: 0.5rem;
+  }
+  .HeroBtn {
+    font-size: 1.4rem;
+    width: 12rem;
+    height: 3.8rem;
+    margin-top: 1.4rem;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .Hero_Page_Container {
+    gap: 1.3rem;
+  }
+  .MainImg {
+    width: 33rem;
+  }
+  .Hero_Heading,
+  span {
+    width: 35rem;
+    font-size: 4.4rem;
+    line-height: 5.3rem;
+  }
+  .Hero_Title {
+    width: 36rem;
+    line-height: 2.4rem;
+    margin-top: 0.5rem;
+  }
+  .HeroBtn {
+    font-size: 1.355rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .Hero_Page_Container {
+    gap: 1rem;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+  .Hero_Heading,
+  span {
+    width: 80%;
+    text-align: center;
+    font-size: 4.4rem;
+    line-height: 5.3rem;
+  }
+  .Hero_left_Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .Hero_Title {
+    text-align: center;
+    width: 60%;
+    line-height: 2.4rem;
+    margin-top: 1.5rem;
+  }
+  .HeroBtn {
+    font-size: 1.5rem;
+    width: 14rem;
+    height: 4rem;
+    margin-top: 1.4rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .Hero_Heading,
+  span {
+    width: 90%;
+    font-size: 4.2rem;
+    line-height: 5rem;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .Hero_Heading,
+  span {
+    font-size: 3.9rem;
+  }
+  .HeroBtn {
+    font-size: 1.4rem;
+    width: 13rem;
+    height: 3.9rem;
+  }
+  .Hero_Title {
+    width: 70%;
+    font-size: 1.3rem;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .MainImg {
+    width: 28rem;
+  }
+  .Hero_Heading,
+  span {
+    width: 95%;
+    font-size: 3.6rem;
+    line-height: 4.8rem;
+  }
+  .HeroBtn {
+    font-size: 1.4rem;
+    width: 13rem;
+    height: 3.9rem;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .MainImg {
+    width: 25rem;
+  }
+  .Hero_Heading,
+  span {
+    font-size: 3.3rem;
+    line-height: 4.6rem;
+  }
+  .HeroBtn {
+    font-size: 1.4rem;
+    width: 13rem;
+    height: 3.9rem;
+  }
+  .Hero_Title {
+    width: 85%;
+    font-size: 1.289rem;
+  }
+}
+@media only screen and (max-width: 385px) {
+  .MainImg {
+    width: 25rem;
+  }
+  .Hero_Heading,
+  span {
+    font-size: 3rem;
+    line-height: 4.2rem;
+  }
+  .HeroBtn {
+    font-size: 1.4rem;
+    width: 13rem;
+    height: 3.9rem;
+  }
+}

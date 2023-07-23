@@ -1,0 +1,80 @@
+.Contact_Container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.Emoji {
+  position: absolute;
+  right: 15rem;
+  top: 4rem;
+  width: 14rem;
+}
+.Contact_Left_Container {
+  /* border: 2px solid red; */
+}
+.Contact_Main {
+  margin-top: 5rem;
+  border: 1px solid;
+  padding: 6rem;
+  background-color: #ef0178d9;
+  border: none;
+  border-radius: 11rem 0rem 11rem 0rem;
+  position: relative;
+}
+.Contact_Heading {
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 3.8rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 6rem;
+  letter-spacing: 0.1rem;
+  margin-bottom: 2rem;
+}
+.Contact_Input {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 2rem;
+}
+.Name_User,
+.Email,
+.Phone {
+  border: none;
+  outline: none;
+  width: 30rem;
+  padding: 1.5rem 2rem;
+  background-color: rgb(255, 255, 255);
+  font-size: 1.8rem;
+  color: #000000c9;
+  border-radius: 0.8rem;
+}
+.Email_Phone_Input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+.Query {
+  font-size: 1.8rem;
+  width: 37.1em;
+  height: 12rem;
+  padding: 0rem 2rem;
+  border: none;
+  outline: none;
+  color: #000000c9;
+  border-radius: 0.8rem;
+  background-color: rgb(255, 255, 255);
+}
+.SubmitBtn {
+  margin-top: .5rem;
+  width: 15rem;
+  height: 5rem;
+  border: none;
+  outline: none;
+  font-size: 1.7rem;
+  color: white;
+  border-radius: .7rem;
+  background: #5243c2;
+}

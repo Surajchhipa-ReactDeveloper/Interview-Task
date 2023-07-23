@@ -1,0 +1,133 @@
+.AboutUs_Container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* height: 100vh; */
+  gap: 3rem;
+  /* border: 2px solid hotpink; */
+}
+.About_US_top_Container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: fit-content;
+  /* padding-top: 9rem; */
+  height: 100vh;
+  gap: 5rem;
+}
+.About_Left_IMG_Container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 2px solid red; */
+  background: radial-gradient(rgba(42, 126, 182, 0.367) 0%, white 50%);
+}
+
+.AboutImg {
+  width: 48rem;
+  object-fit: cover;
+  object-position: center;
+  mix-blend-mode: darken;
+}
+.About_Right_Container {
+  /* border: 2px solid rgb(0, 195, 255); */
+  width: 60rem;
+}
+.About_Heading {
+  text-transform: capitalize;
+  /* width: 53.9rem; */
+  /* border: 2px solid rgb(115, 0, 255); */
+  color: #1d1b1b;
+  font-family: Montserrat;
+  font-size: 5.1rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 8rem; /* 125% */
+  letter-spacing: -0.13rem;
+}
+.AbSpan {
+  color: #5243c2;
+  font-family: Montserrat;
+  font-size: 5.1rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 6rem;
+  letter-spacing: -0.15rem;
+}
+.About_Title {
+  text-transform: capitalize;
+  margin-top: 1rem;
+  color: #1d1b1b;
+  font-family: Montserrat;
+  font-size: 1.777rem;
+  font-style: normal;
+  width: 60.1rem;
+  font-weight: 500;
+  line-height: 3rem; /* 233.333% */
+}
+.AboutBtn {
+  margin-top: 2.5rem;
+  border: none;
+  outline: none;
+  width: 16rem;
+  height: 4.5rem;
+  flex-shrink: 0;
+  border-radius: 0.4rem;
+  background: #5243c2;
+  color: #fff;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 1.7rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 4rem; /* 200% */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.AboutBtn:hover {
+  background: #382b9c;
+}
+.AboutUS_Technology_Container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.AboutUs_Main_heading {
+  color: #000000;
+  font-family: Montserrat;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 6rem;
+  letter-spacing: 0.12rem;
+}
+.ABTechSpan {
+  color: #382b9c;
+  font-family: Montserrat;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 6rem;
+  letter-spacing: 0.12rem;
+}
+.AboutUs_SubTitle {
+  text-transform: capitalize;
+  width: 65%;
+  color: rgba(29, 27, 27, 0.837);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 3rem; /* 166.667% */
+}
+.Technology_Container_Main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15rem;
+  padding: 5rem 0rem;
+}

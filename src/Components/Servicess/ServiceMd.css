@@ -1,0 +1,103 @@
+@media only screen and (max-width: 1300px) {
+  .Service_Button_Container {
+    gap: 4rem;
+  }
+  .Service_heading,
+  .ServiceSpan {
+    font-size: 6rem;
+  }
+  .Service_Title {
+    font-size: 1.7rem;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .Service_Button_Container {
+    gap: 3rem;
+  }
+  .Service_heading,
+  .ServiceSpan {
+    font-size: 5.9rem;
+  }
+  .Service_Title {
+    font-size: 1.685rem;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .Service_heading,
+  .ServiceSpan {
+    font-size: 5.8rem;
+  }
+  .Service_Title {
+    font-size: 1.6rem;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .Service_heading,
+  .ServiceSpan {
+    font-size: 5.6rem;
+  }
+  .Service_Title {
+    font-size: 1.5rem;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .Service_heading,
+  .ServiceSpan {
+    font-size: 5.5rem;
+  }
+  .Service_Title {
+    font-size: 1.499rem;
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 850px) {
+  .Service_Button_Container {
+    gap: 2rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .Service_Button_Container {
+    gap: 5rem;
+    flex-direction: column;
+    padding-bottom: 5rem;
+  }
+  .Service_heading,
+  .ServiceSpan {
+    font-size: 5.4rem;
+    width: 33rem;
+  }
+  .Service_Title {
+    font-size: 1.3rem;
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .Service_Button_Container {
+    padding-bottom: 4rem;
+  }
+  .Service_heading,
+  .ServiceSpan {
+    font-size: 5rem;
+    width: 29rem;
+  }
+  .Service_Title {
+    font-size: 1.244rem;
+    width: 85%;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .Service_Button_Container {
+    gap: 4rem;
+ 
+  }
+  .Service_heading,
+  .ServiceSpan {
+    font-size: 4.8rem;
+    width: 25rem;
+  }
+  .Service_Title {
+    font-size: 1.2rem;
+    width: 90%;
+  }
+}

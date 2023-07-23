@@ -1,0 +1,53 @@
+.Service_Container {
+  /* display: flex;
+  align-items: center;
+  justify-content: flex-start; */
+  height: 100vh;
+}
+.Service_Container_top {
+  margin-top: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.Service_heading {
+  text-transform: capitalize;
+  width: 55.9rem;
+  /* border: 2px solid rgb(115, 0, 255); */
+  color: #1d1b1b;
+  font-family: Montserrat;
+  font-size: 6.4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 8rem; /* 125% */
+  letter-spacing: -0.15rem;
+  text-align: center;
+}
+.ServiceSpan {
+  color: #ef0178;
+  font-family: Montserrat;
+  font-size: 6.4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 8rem;
+  letter-spacing: -0.15rem;
+}
+.Service_Title {
+  text-align: center;
+  color: rgba(29, 27, 27, 0.801);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 400;
+  width: 70%;
+  line-height: 3rem;
+}
+.Service_Button_Container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  padding-top: 4rem;
+}

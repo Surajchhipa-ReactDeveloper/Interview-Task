@@ -1,0 +1,76 @@
+.Hero_Page_Container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  gap: 8rem;
+}
+.Hero_Heading {
+  text-transform: capitalize;
+  width: 55.9rem;
+  /* border: 2px solid rgb(115, 0, 255); */
+  color: #1d1b1b;
+  font-family: Montserrat;
+  font-size: 6.4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 8rem; /* 125% */
+  letter-spacing: -0.15rem;
+}
+span {
+  color: #ef0178;
+  font-family: Montserrat;
+  font-size: 6.4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 8rem;
+  letter-spacing: -0.15rem;
+}
+.Hero_Title {
+  text-transform: capitalize;
+  margin-top: 1rem;
+  color: #1d1b1b;
+  font-family: Montserrat;
+  font-size: 1.8rem;
+  font-style: normal;
+  width: 52.1rem;
+  font-weight: 500;
+  line-height: 3rem; /* 233.333% */
+}
+
+.Hero_Right_Container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 2px solid rgb(255, 230, 0); */
+  /* width: 69.6rem; */
+  /* height: 66rem; */
+  flex-shrink: 0;
+}
+.MainImg {
+  width: 50rem;
+  /* height: 48rem; */
+  object-fit: cover;
+  object-position: center;
+  mix-blend-mode: darken;
+}
+.HeroBtn {
+  margin-top: 2.5rem;
+  border: none;
+  outline: none;
+  width: 16rem;
+  height: 4.5rem;
+  flex-shrink: 0;
+  border-radius: 0.4rem;
+  background: #ef0178;
+  color: #fff;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 1.7rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 4rem; /* 200% */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

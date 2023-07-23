@@ -1,0 +1,151 @@
+.Navbar_Main_Container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.2rem 10rem;
+  position: fixed;
+  top: 0rem;
+  left: 0rem;
+  right: 0rem;
+  backdrop-filter: blur(50px);
+  /* width: 100%; */
+  z-index: 15;
+  background-color: white;
+}
+.Navbar_Left_Side_Container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Main_Logo {
+  width: 13rem;
+  object-fit: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Navbar_Right_Side_Item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Navbar_Right_Side_Item ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+  list-style: none;
+}
+.Navbar_Right_Side_Item ul li a {
+  color: #1d1b1b;
+  font-family: Montserrat;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 1.8rem */
+  letter-spacing: 0.054rem;
+  text-decoration: none;
+  padding: 1rem;
+}
+.Menu_Bar {
+  display: none !important;
+}
+@media only screen and (max-width: 1400px) {
+  .Navbar_Right_Side_Container ul li a {
+    font-size: 1.7rem;
+  }
+}
+@media only screen and (max-width: 1150px) {
+  .Navbar_Right_Side_Container ul li a {
+    font-size: 1.66rem;
+  }
+  .Navbar_Right_Side_Container ul {
+    gap: 3rem;
+  }
+  .Navbar_Main_Container {
+    padding: 1.2rem 7rem;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .Navbar_Right_Side_Container ul li a {
+    font-size: 1.5rem;
+  }
+  .Navbar_Right_Side_Container ul {
+    gap: 2rem;
+  }
+  .Navbar_Main_Container {
+    padding: 1.2rem 5rem;
+  }
+  .Navbar_Right_Side_Container ul li a {
+    padding: 0.8rem;
+  }
+}
+@media only screen and (max-width: 850px) {
+  .Navbar_Right_Side_Container ul li a {
+    font-size: 1.4rem;
+  }
+  .Navbar_Right_Side_Container ul {
+    gap: 2rem;
+  }
+  .Navbar_Main_Container {
+    padding: 1.2rem 3rem;
+  }
+  .Main_Logo {
+    width: 11rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .Menu_Bar {
+    display: block !important;
+    z-index: 18;
+    position: relative;
+  }
+  .Navbar_Right_Side_Item {
+    display: none;
+  }
+  .Hamburger_Menu {
+    width: 5rem;
+  }
+  .Open_Bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .Mobile_Navbar {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 7rem;
+    left: 0rem;
+    right: 0rem;
+    height: 100vh;
+    background-color: blue;
+  }
+  .Mobile_Navbar ul {
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 6rem;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: white;
+    z-index: 1;
+    padding: 0rem;
+  }
+  .Mobile_Navbar ul li a {
+    color: #1d1b1b;
+    font-family: Montserrat;
+    font-size: 1.9rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 1.8rem */
+    letter-spacing: 0.054rem;
+    text-decoration: none;
+  }
+  .Navbar_Main_Container {
+    padding: 1.2rem 2rem;
+  }
+}
