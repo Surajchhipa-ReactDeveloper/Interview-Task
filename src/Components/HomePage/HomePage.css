@@ -73,4 +73,8 @@ span {
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
+}
+.HeroBtn:hover {
+  background: #d5026c;
 }

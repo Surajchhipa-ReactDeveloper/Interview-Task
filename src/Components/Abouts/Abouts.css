@@ -67,6 +67,7 @@
   line-height: 3rem; /* 233.333% */
 }
 .AboutBtn {
+  cursor: pointer;
   margin-top: 2.5rem;
   border: none;
   outline: none;

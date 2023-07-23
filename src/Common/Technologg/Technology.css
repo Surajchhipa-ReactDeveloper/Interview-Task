@@ -55,6 +55,9 @@
   background: #ef0178;
   border: none;
 }
+.Technology_Button:hover {
+  background: #d5026c;
+}
 /* **************** MEDIA ********************** */
 @media only screen and (max-width: 1150px) {
   .Technology_Container {
