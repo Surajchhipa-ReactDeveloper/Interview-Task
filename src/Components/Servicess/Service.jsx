@@ -3,13 +3,11 @@ import "./Service.css";
 import "./ServiceMd.css";
 import SType from "../../Common/ServiceType/Stype";
 import { Icon } from "../../Constant/IconPath";
-import Fade from "react-reveal/Fade";
 
 const Service = () => {
   return (
     <>
       <div className="Service_Container">
-        <Fade bottom>
           <div className="Service_Container_top">
             <div className="Service_heading">
               What <span className="ServiceSpan">We Do</span>
@@ -22,7 +20,6 @@ const Service = () => {
               systems.
             </div>
           </div>
-        </Fade>
         <div className="Service_Button_Container">
           <SType
             STimg={Icon.Code}
